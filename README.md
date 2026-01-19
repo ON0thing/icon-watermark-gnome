@@ -1,5 +1,5 @@
 # icon-watermark-gnome
-set an icon and watermark on gnome desktop
+set an icon and watermark on gnome desktop, only test on debian13 gnome48
 
 1, set an icon(icon/system-icon.svg) on topbar (as your 'brand')
 
