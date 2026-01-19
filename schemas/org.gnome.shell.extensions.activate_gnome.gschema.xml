@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<schemalist gettext-domain="watermark_background">
+  <schema id="org.gnome.shell.extensions.watermark_background" path="/org/gnome/shell/extensions/watermark_background/">
+    <!-- 原有设置键 -->
+    <key name="text-l1" type="s">
+      <default>'TEXT Setting'</default>
+      <summary>Text to display on line 1</summary>
+    </key>
+    <key name="text-l2" type="s">
+      <default>'Go to Extension to set TEXT here'</default>
+      <summary>Text to display on line 2</summary>
+    </key>
+    <key name="l2-vertical" type="d">
+      <default>0.9444444444444444</default>
+      <summary>Vertical position of line 2</summary>
+    </key>
+    <key name="l2-horizontal" type="d">
+      <default>0.92</default>
+      <summary>Horizontal position of line 2</summary>
+    </key>
+    <key name="opacity" type="d">
+      <default>102</default>
+      <summary>Opacity</summary>
+    </key>
+    <key name="size-l1" type="d">
+      <default>36</default>
+      <summary>Text size of line 1 (px)</summary>
+    </key>
+    <key name="size-l2" type="d">
+      <default>26</default>
+      <summary>Text size of line 2 (px)</summary>
+    </key>
+    
+    <!-- 新增图片设置键 -->
+    <key name="selected-image" type="s">
+      <default>''</default>
+      <summary>Selected image file path</summary>
+    </key>
+    <key name="image-opacity" type="d">
+      <default>255.0</default>
+      <range min="0.1" max="255.0"/>
+      <summary>Image opacity</summary>
+    </key>
+    <key name="image-position-x" type="d">
+      <default>0.5</default>
+      <range min="0.0" max="1.0"/>
+      <summary>Image horizontal position</summary>
+    </key>
+    <key name="image-position-y" type="d">
+      <default>0.5</default>
+      <range min="0.0" max="1.0"/>
+      <summary>Image vertical position</summary>
+    </key>
+    <key name="image-size" type="i">
+      <default>512</default>
+      <range min="10" max="4096"/>
+      <summary>Image display size</summary>
+    </key>
+    
+    <!-- 新增面板布局设置 -->
+    <key name="datetime-moved" type="b">
+      <default>false</default>
+      <summary>Whether date time has been moved to left</summary>
+    </key>
+    <key name="extension-centered" type="b">
+      <default>false</default>
+      <summary>Whether extension is centered</summary>
+    </key>
+  </schema>
+</schemalist>

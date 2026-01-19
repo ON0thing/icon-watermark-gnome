@@ -1,0 +1,12 @@
+{
+  "name": "Watermark-Background",
+  "settings-schema": "org.gnome.shell.extensions.watermark_background",
+  "description": "Activate GNOME Text&Image watermark on screen",
+  "uuid": "watermark@gnome.background.creen",
+  "session-modes": ["user", "unlock-dialog"],
+  "stylesheet": "stylesheet.css",
+  "shell-version": [
+    "48"
+  ],
+  "version": 0.1
+}
